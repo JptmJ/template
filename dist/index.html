@@ -153,16 +153,27 @@
         <section class="grid grid-cols-1 gap-4 md:hidden">
             <!-- Card 1 -->
             <div class="p-6">
-                <h2 class="text-lg font-semibold mb-2">Card 1</h2>
-                <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dui vel libero
-                    commodo ultrices.</p>
+                <div class="p-6 res-img ml-20 container">
+                    <img class="about-img -mt-10" src="images/about.jpg.webp" alt="">
+                </div>
             </div>
 
             <!-- Card 2 -->
             <div class="p-6">
-                <h2 class="text-lg font-semibold mb-2">Card 2</h2>
-                <p class="text-sm">Phasellus auctor leo a odio vestibulum, eu ullamcorper mi finibus. Sed feugiat quam a
-                    lacus dictum.</p>
+                <div class="p-6 res-img ml-20 container">
+                    <img class="about-img -mt-10" src="images/about-1.jpg.webp" alt="">
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="p-6 card-abt">
+                <h2 class="font-semibold my-5 text-4xl">Feliciano Restaurant</h2>
+                <p class="text-xl my-14">A small river named Duden flows by their place and supplies it with the
+                    necessary
+                    regelialia. It is a
+                    paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </p>
+                <p class=" text-2xl">Mon - Fri <span class="font-bold">8 AM - 11 PM</span></p>
             </div>
         </section>
 
@@ -236,7 +247,7 @@
         </div>
 
         <div class="flex justify-center items-center">
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-24">
+            <div class="grid grid-cols-1 sm:grid-cols-2 services md:grid-cols-3 gap-4 px-24">
                 <div class="p-12">
                     <div class="...">
                         <i class="fa fa-service-icon fa-cake"></i>
@@ -275,7 +286,7 @@
         <div class="grid grid-cols-6 py-10 gap-4">
             <div class="col-start-2 col-span-4 text-5xl font-black py-10">Catering Services</div>
         </div>
-        <div class="grid grid-cols-6">
+        <div class="do-flex grid grid-cols-6">
             <div class="menu-item flex col-span-1">
             </div>
             <div class="border-2 border-b-slate-600 menu-item flex col-span-2">
@@ -313,7 +324,7 @@
         </div>
 
 
-        <div class="grid grid-cols-6">
+        <div class="do-flex grid grid-cols-6">
             <div class="menu-item flex col-span-1">
             </div>
             <div class="border-2 border-b-slate-600 menu-item flex col-span-2">
@@ -351,7 +362,7 @@
         </div>
 
 
-        <div class="grid grid-cols-6">
+        <div class="do-flex grid grid-cols-6">
             <div class="menu-item flex col-span-1">
             </div>
             <div class="border-2 border-b-slate-600 menu-item flex col-span-2">
@@ -395,8 +406,8 @@
         <div class="grid grid-cols-6 text-center py-10 gap-4">
             <div class="col-start-2 col-span-4 text-5xl font-black py-10">Our Master Chef</div>
         </div>
-        <div class="grid grid-cols-4 text-left gap-10">
-            <div class="max-w-sm bg-white border rounded-lg col-span-1">
+        <div class="grid grid-cols-4 chef-card text-left gap-10">
+            <div class="max-w-sm chef-mart bg-white border rounded-lg col-span-1">
                 <a href="#">
                     <img class="rounded-t-lg" src="images/chef-2.jpg.webp" alt="" />
                 </a>
@@ -414,7 +425,7 @@
                     </div>
                 </div>
             </div>
-            <div class="max-w-sm bg-white border rounded-lg col-span-1">
+            <div class="max-w-sm chef-mart bg-white border rounded-lg col-span-1">
                 <a href="#">
                     <img class="rounded-t-lg" src="images/chef-4.jpg.webp" alt="" />
                 </a>
@@ -432,7 +443,7 @@
                     </div>
                 </div>
             </div>
-            <div class="max-w-sm bg-white border rounded-lg col-span-1">
+            <div class="max-w-sm chef-mart bg-white border rounded-lg col-span-1">
                 <a href="#">
                     <img class="rounded-t-lg" src="images/chef-2.jpg.webp" alt="" />
                 </a>
@@ -450,7 +461,7 @@
                     </div>
                 </div>
             </div>
-            <div class="max-w-sm bg-white border rounded-lg col-span-1">
+            <div class="max-w-sm chef-mart bg-white border rounded-lg col-span-1">
                 <a href="#">
                     <img class="rounded-t-lg" src="images/chef-4.jpg.webp" alt="" />
                 </a>
@@ -476,7 +487,7 @@
         <div class="img-text text-left">
 
             <form class="">
-                <div class="grid grid-cols-6 text-center gap-4">
+                <div class="grid lg:grid-cols-6 text-center">
                     <div class="col-start-2 col-span-4 text-5xl font-black pt-5 pb-10">Make Reservation</div>
                 </div>
                 <div class="grid grid-cols-2">
