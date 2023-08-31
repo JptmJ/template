@@ -24,28 +24,28 @@
     </style>
 </head>
 
-<body>
+<body class="bg-[#666666]">
 
     <!-- Navbar -->
 
-    <div class="top-nav backdrop-blur-md shadow-md" style="color: black !important;">
-        <div class="flex justify-around row">
-            <div class="col-md-4">
-                <i class="fa fa-phone pr-3"></i>
-                <a href="tel:9313626353">+91 9313626353</a>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-envelope pr-3 "></i>
-                <a href="mailto:temp@gmail.com">temp@gmail.com</a>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-phone pr-3"></i>
-                <a href="about.html">Open hours: Monday - Sunday 8:00AM - 9:00PM</a>
+
+    <nav class="nav-color text-black shadow-md fixed w-full z-50">
+        <div class="top-nav shadow-lg">
+            <div class="flex justify-around row">
+                <div class="col-md-4">
+                    <i class="fa fa-phone pr-3"></i>
+                    <a href="tel:9313626353">+91 9313626353</a>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-envelope pr-3 "></i>
+                    <a href="mailto:temp@gmail.com">temp@gmail.com</a>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-phone pr-3"></i>
+                    <a href="about.html">Open hours: Monday - Sunday 8:00AM - 9:00PM</a>
+                </div>
             </div>
         </div>
-    </div>
-    <nav class="backdrop-blur-md text-white fixed w-full z-50">
-
         <div class="container mx-auto px-4">
             <div class="flex justify-between items-center py-4">
                 <a href="#" class="text-xl font-semibold">Pratham Joshi</a>
@@ -55,8 +55,8 @@
                     <a href="#" class="hover:text-gray-500 transition-all">Services</a>
                     <a href="#" class="hover:text-gray-500 transition-all">Contact</a>
                 </div>
-                <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-gray-800">
-                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <button id="mobile-menu-button" class="md:hidden transition-all text-gray-600 hover:text-gray-800">
+                    <svg class="h-6 w-6 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
@@ -110,7 +110,7 @@
         </div>
 
         <!-- Overlay Cards -->
-        <div class="mar-slide-item" class="slider-item top-0 left-0 w-full h-full flex items-center text-white justify-between">
+        <div class="mar-slide-item slider-item top-0 left-0 w-full h-full flex items-center text-white justify-between">
             <div style="width: 100%;" class="grid grid-cols-2 text-center md:grid-cols-4 gap-4 p-4">
                 <div class="col-md-3 p-4 rounded-lg flex flex-col items-center justify-center">
                     <div class="card">
@@ -149,14 +149,14 @@
         <!-- Mobile and Tablet View -->
         <section class="grid grid-cols-1 gap-4 md:hidden">
             <!-- Card 1 -->
-            <div class="bg-white p-6">
+            <div class="p-6">
                 <h2 class="text-lg font-semibold mb-2">Card 1</h2>
                 <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dui vel libero
                     commodo ultrices.</p>
             </div>
 
             <!-- Card 2 -->
-            <div class="bg-white p-6">
+            <div class="p-6">
                 <h2 class="text-lg font-semibold mb-2">Card 2</h2>
                 <p class="text-sm">Phasellus auctor leo a odio vestibulum, eu ullamcorper mi finibus. Sed feugiat quam a
                     lacus dictum.</p>
@@ -164,74 +164,228 @@
         </section>
 
         <!-- Desktop View -->
-        <section class="grid grid-cols-3 gap-4 hidden md:grid">
+        <section class="grid grid-cols-3 p-8 gap-4 hidden md:grid">
             <!-- Card 1 -->
-            <div class="bg-white p-6 container">
+            <div class="p-6 ml-20 container">
                 <img class="about-img -mt-10" src="images/about.jpg.webp" alt="">
             </div>
 
             <!-- Card 2 -->
-            <div class="bg-white p-6">
+            <div class="p-6">
                 <img class="about-img" src="images/about-1.jpg.webp" alt="">
             </div>
 
             <!-- Card 3 -->
-            <div class="bg-white p-6">
-                <h2 class="text-lg font-semibold mb-2">Card 3</h2>
-                <p>Integer ac tortor eu dui sollicitudin fermentum a sit amet justo. Vivamus nec justo a quam tristique.
+            <div class="p-6">
+                <h2 class="font-semibold my-5 text-4xl">Feliciano Restaurant</h2>
+                <p class="text-xl my-14">A small river named Duden flows by their place and supplies it with the
+                    necessary
+                    regelialia. It is a
+                    paradisematic country, in which roasted parts of sentences fly into your mouth.
                 </p>
+                <p class=" text-2xl">Mon - Fri <span class="font-bold">8 AM - 11 PM</span></p>
             </div>
         </section>
     </div>
 
-    <!-- 
+    <div class="container-new mx-auto p-8">
 
-    <div class="container mx-auto py-16 px-4">
-        <section class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-            <div class="bg-white pr-5">
-                <img class="about-img -mt-10" src="images/about.jpg.webp" alt="">
-            </div>
-
-            <div class="bg-white">
-                <img class="about-img" src="images/about-1.jpg.webp" alt="">
-            </div>
-
-            <div class="bg-white">
-                <h2 class="text-lg font-semibold mb-2">Card 3</h2>
-                <p class="text-sm">Integer ac tortor eu dui sollicitudin fermentum a sit amet justo. Vivamus nec justo a
-                    quam
-                    tristique.</p>
-            </div>
-        </section>
-    </div> -->
-
-
-    <div class="container mx-auto py-8">
-        <section class="grid grid-cols-1 gap-4 md:grid-cols-3">
-            <div class="column-counter">
-                <div class="card-counter">
-                    <h3><span id="Partners">1500</span>+</h3>
-                    <h3>Partners</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+            <!-- Counter: Projects Done -->
+            <div class="p-6 text-center">
+                <div class="text-4xl font-semibold mb-2" id="projectsCounter">0</div>
+                <div class="text-gray-600">YEARS OF EXPERIENCED
                 </div>
             </div>
 
-            <div class="column-counter">
-                <div class="card-counter">
-                    <h3><span id="Projects">300</span>+</h3>
-                    <h3>Projects</h3>
+            <!-- Counter: Happy Customers -->
+            <div class="p-6 text-center">
+                <div class="text-4xl font-semibold mb-2" id="customersCounter">0</div>
+                <div class="text-gray-600">MENUS/DISH
                 </div>
             </div>
 
-            <div class="column-counter">
-                <div class="card-counter">
-                    <h3><span id="Clients">30</span>+</h3>
-                    <h3>Happy Clients</h3>
+            <!-- Counter: Team Members -->
+            <div class="p-6 text-center">
+                <div class="text-4xl font-semibold mb-2" id="teamCounter">0</div>
+                <div class="text-gray-600">STAFFS
                 </div>
             </div>
-        </section>
+
+            <!-- Counter: Awards Won -->
+            <div class="p-6 text-center">
+                <div class="text-4xl font-semibold mb-2" id="awardsCounter">0</div>
+                <div class="text-gray-600">HAPPY CUSTOMERS</div>
+            </div>
+
+            <!-- Card: About Us -->
+            <div class="p-6">
+                <p class="text-gray-600">A small river named Duden flows by their place and supplies it with the
+                    necessary regelialia.</p>
+            </div>
+        </div>
     </div>
 
-    <!-- Your page content goes here -->
+    <div class="md:container bg-gray-100 text-center md:mx-auto">
+
+        <div class="grid grid-cols-6 py-10 gap-4">
+            <div class="col-start-2 col-span-4 text-5xl font-black py-10">Catering Services</div>
+        </div>
+
+        <div class="flex justify-center items-center">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-24">
+                <div class="p-12">
+                    <div class="...">
+                        <i class="fa fa-service-icon fa-cake"></i>
+                        <h2 class="text-2xl py-7">Birthday Party</h2>
+                        <p class="text-lg">Even the all-powerful Pointing has no control about the blind texts it is an
+                            almost
+                            unorthographic.</p>
+                    </div>
+                </div>
+                <div class="p-12">
+                    <div class="...">
+                        <i class="fa fa-service-icon fa-cake"></i>
+                        <h2 class="text-2xl py-7">Business Meetings</h2>
+                        <p class="text-lg">Even the all-powerful Pointing has no control about the blind texts it is an
+                            almost
+                            unorthographic.</p>
+                    </div>
+                </div>
+                <div class="p-12">
+                    <div class="...">
+                        <i class="fa fa-service-icon fa-cake"></i>
+                        <h2 class="text-2xl py-7">Wedding Party</h2>
+                        <p class="text-lg">Even the all-powerful Pointing has no control about the blind texts it is an
+                            almost
+                            unorthographic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="md:container bg-gray-100 text-center md:mx-auto">
+
+        <div class="grid grid-cols-6 py-10 gap-4">
+            <div class="col-start-2 col-span-4 text-5xl font-black py-10">Catering Services</div>
+        </div>
+        <div class="grid grid-cols-6">
+            <div class="menu-item flex col-span-1">
+            </div>
+            <div class="border-2 border-b-slate-600 menu-item flex col-span-2">
+                <img src="images/breakfast-1.jpg (1).webp" alt="img">
+                <div class="px-9 text-left card col-span-2">
+                    <div class="text-xl pt-5 pb-7 grid grid-cols-3">
+                        <h2 class="col-span-2">Grilled Beef with potatoes</h2>
+                        <div class="col-span-1 right text-right">
+                            <span>$42</span>
+                        </div>
+                    </div>
+                    <p class="text-lg pb-5">Meat, Potatoes, Rice, Tomatoe</p>
+                    <button class="btn-bg text-white font-bold py-2 px-4 rounded">
+                        Button
+                    </button>
+                </div>
+            </div>
+            <div class="border-2 border-b-slate-600 menu-item flex col-span-2">
+                <img src="images/breakfast-1.jpg (1).webp" alt="img">
+                <div class="px-9 text-left card col-span-2">
+                    <div class="text-xl pt-5 pb-7 grid grid-cols-3">
+                        <h2 class="col-span-2">Grilled Beef with potatoes</h2>
+                        <div class="col-span-1 right text-right">
+                            <span>$42</span>
+                        </div>
+                    </div>
+                    <p class="text-lg pb-5">Meat, Potatoes, Rice, Tomatoe</p>
+                    <button class="btn-bg text-white font-bold py-2 px-4 rounded">
+                        Button
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item flex col-span-1">
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-6">
+            <div class="menu-item flex col-span-1">
+            </div>
+            <div class="border-2 border-b-slate-600 menu-item flex col-span-2">
+                <div class="px-9 text-left card col-span-2">
+                    <div class="text-xl pt-5 pb-7 grid grid-cols-3">
+                        <h2 class="col-span-2">Grilled Beef with potatoes</h2>
+                        <div class="col-span-1 right text-right">
+                            <span>$42</span>
+                        </div>
+                    </div>
+                    <p class="text-lg pb-5">Meat, Potatoes, Rice, Tomatoe</p>
+                    <button class="btn-bg text-white font-bold py-2 px-4 rounded">
+                        Button
+                    </button>
+                </div>
+                <img src="images/breakfast-1.jpg (1).webp" alt="img">
+            </div>
+            <div class="border-2 border-b-slate-600 menu-item flex col-span-2">
+                <div class="px-9 text-left card col-span-2">
+                    <div class="text-xl pt-5 pb-7 grid grid-cols-3">
+                        <h2 class="col-span-2">Grilled Beef with potatoes</h2>
+                        <div class="col-span-1 right text-right">
+                            <span>$42</span>
+                        </div>
+                    </div>
+                    <p class="text-lg pb-5">Meat, Potatoes, Rice, Tomatoe</p>
+                    <button class="btn-bg text-white font-bold py-2 px-4 rounded">
+                        Button
+                    </button>
+                </div>
+                <img src="images/breakfast-1.jpg (1).webp" alt="img">
+            </div>
+            <div class="menu-item flex col-span-1">
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-6">
+            <div class="menu-item flex col-span-1">
+            </div>
+            <div class="border-2 border-b-slate-600 menu-item flex col-span-2">
+                <img src="images/breakfast-1.jpg (1).webp" alt="img">
+                <div class="px-9 text-left card col-span-2">
+                    <div class="text-xl pt-5 pb-7 grid grid-cols-3">
+                        <h2 class="col-span-2">Grilled Beef with potatoes</h2>
+                        <div class="col-span-1 right text-right">
+                            <span>$42</span>
+                        </div>
+                    </div>
+                    <p class="text-lg pb-5">Meat, Potatoes, Rice, Tomatoe</p>
+                    <button class="btn-bg text-white font-bold py-2 px-4 rounded">
+                        Button
+                    </button>
+                </div>
+            </div>
+            <div class="border-2 border-b-slate-600 menu-item flex col-span-2">
+                <img src="images/breakfast-1.jpg (1).webp" alt="img">
+                <div class="px-9 text-left card col-span-2">
+                    <div class="text-xl pt-5 pb-7 grid grid-cols-3">
+                        <h2 class="col-span-2">Grilled Beef with potatoes</h2>
+                        <div class="col-span-1 right text-right">
+                            <span>$42</span>
+                        </div>
+                    </div>
+                    <p class="text-lg pb-5">Meat, Potatoes, Rice, Tomatoe</p>
+                    <button class="btn-bg text-white font-bold py-2 px-4 rounded">
+                        Button
+                    </button>
+                </div>
+            </div>
+            <div class="menu-item flex col-span-1">
+            </div>
+        </div>
+    </div>
+
 
     <script>
         // Mobile menu toggle
@@ -249,28 +403,23 @@
             autoplay: true,
             interval: 3000 // Auto slide every 3 seconds
         }).mount();
-        // Initialize CountUp instances
-        // this function used to creat th countUp  animation for business websites
-        // use the three parameters to customize it 
-        // call it for every element
-        // note that may be small diffrance in the count 100 be 99 so chack it 
-        function numCounter(tagId, maxCount, speed) {
-            var initialNumber = 0;
-            function counter() {
-                document.getElementById(tagId).innerHTML = initialNumber;
-                ++initialNumber;
-            }
-            var counterDelay = setInterval(counter, speed);
-            function totalTime() {
-                clearInterval(counterDelay);
-            }
-            var totalPeriod = speed * (maxCount);
-            setTimeout(totalTime, totalPeriod);
+        function animateCounter(target, elementId) {
+            let current = 0;
+            const increment = Math.ceil(target / 100);
+            const interval = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    clearInterval(interval);
+                    current = target;
+                }
+                document.getElementById(elementId).textContent = current;
+            }, 30);
         }
 
-        numCounter("Projects", 60, 100);
-        numCounter("Clients", 25, 400);
-        numCounter("Partners", 900, 10);
+        animateCounter(18, 'projectsCounter');
+        animateCounter(100, 'customersCounter');
+        animateCounter(50, 'teamCounter');
+        animateCounter(15000, 'awardsCounter');
     </script>
 
 </body>
